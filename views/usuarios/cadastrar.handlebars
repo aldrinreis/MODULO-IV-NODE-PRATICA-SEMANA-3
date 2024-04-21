@@ -1,0 +1,39 @@
+<h1 class="text-center my-3">Cadastro de Usuários</h1>
+<form action="/usuarios/Create" method="post">
+ <div class="row w-50 d-block m-auto g-3">
+ <div class="col-12">
+ <label class="form-label" for="titulo">Nome:</label>
+ <input
+ class="form-control"
+ type="text"
+ name="nome"
+ id="nome"
+ placeholder="Informe o nome do usuario"
+ />
+ </div>
+ <div class="col-12">
+ <label class="form-label" for="descricao">Email:</label>
+ <input
+ class="form-control"
+ type="email"
+ name="email"
+ id="email"
+ placeholder="Informe o email do usuario"
+ />
+ </div>
+    <div class="col-12">
+    <label class="form-label" for="descricao">Senha:</label>
+    <input
+    class="form-control"
+    type="password"
+    name="senha"
+    id="senha"
+    placeholder="Insira a Senha"
+    />
+    </div>
+ <div>
+ <input class="btn btn-primary my-3" type="submit" value="Cadastrar Usuario"
+/>
+ </div>
+ </div>
+</form>
